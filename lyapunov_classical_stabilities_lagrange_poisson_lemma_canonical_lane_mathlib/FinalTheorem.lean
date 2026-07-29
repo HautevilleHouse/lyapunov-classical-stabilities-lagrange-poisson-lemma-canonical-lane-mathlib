@@ -1,0 +1,9 @@
+import lyapunov_classical_stabilities_lagrange_poisson_lemma_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace lyapunov_classical_stabilities_lagrange_poisson_lemma_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end lyapunov_classical_stabilities_lagrange_poisson_lemma_canonical_lane_mathlib
+end HautevilleHouse
